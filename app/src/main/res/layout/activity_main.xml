@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="25dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Weight"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"/>
+
+    <EditText
+        android:id="@+id/weightValueETId"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:hint="Weight"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:inputType="numberDecimal"
+        android:singleLine="true"
+        android:imeOptions="actionNext"
+        android:layout_gravity="center"
+        android:layout_marginBottom="30dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Height"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:layout_marginBottom="30dp"/>
+
+    <EditText
+        android:id="@+id/heightValueETId"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:hint="Height"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:singleLine="true"
+        android:layout_gravity="center"
+        android:imeOptions="actionDone"
+        android:inputType="numberDecimal"
+        android:layout_marginBottom="30dp"/>
+
+    <Button
+        android:id="@+id/calculateBmiBtnId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calculate BMI"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:layout_marginBottom="35dp"/>
+
+    <TextView
+        android:id="@+id/resultTVId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:hint="Result" />
+
+
+</LinearLayout>
